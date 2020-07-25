@@ -1,0 +1,169 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: 'Montserrat-Black', sans-serif;
+}
+#title{
+    background-color: black;
+    color:white;
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size:2rem;
+    line-height: 1.5;
+    margin-left:10%;
+    padding-top: 11.5rem;
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 3% 45%;
+    font-family: 'Montserrat-Black', sans-serif;
+}
+.navbar-brand a{
+    font-family:"Ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:white;
+    font-style: none;
+    margin-left:21%;
+}
+
+.navbar{
+    padding: 0 0 4rem;
+}
+.nav-item a{
+    padding:0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    margin:0 1.5rem;
+}
+.contact{
+    margin-right: 5.5rem;
+}
+.logo-slide{
+    width:5%;
+}
+.vinno-logo{
+    margin-top: 5rem;
+    padding-left: 4rem;
+    width:70%;
+    animation: moveInLeft 1s ease-out;
+}
+ @keyframes moveInLeft {
+    0% 
+    {
+        opacity: 0;
+        transform: translate(-10rem,-10rem);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    } 
+}
+  .typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+  }
+#About{
+    font-family: 'Lato', sans-serif;
+}
+.about-details{
+    font-size:18px;
+}
+#Past_Event{
+    background-color:black;
+    text-align:center;
+    color:white;
+    margin-top: 50px;
+}
+.pastevent-text{
+    font-size: 3rem;
+    color:white;
+    width: 90%;
+    line-height: 1.5;
+}
+.pastevent-image{
+    width: 90%;
+    margin:20px;
+    border: 1px solid white;
+}
+#button-pastevent{
+    transition: all 0.1s;
+}
+#button-pastevent:hover{
+    transform:scale(5);
+    
+}
+.card{
+    padding: 0%;
+    margin:0;
+    transition:all 0.2s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#project{
+    padding:50px;
+    padding-top: 0;
+    margin:50px;
+    margin-top:100px;
+}
+#pro{
+    background-color:#050505;
+    padding-bottom: 50px;
+    padding-left:20px;
+    padding-right:20px;
+
+}
+.project-heading{
+    margin-left: 20px;
+    font-family:"montserrat-bold";
+    font-size:50px;
+    color:white;
+    padding-bottom: 20px;
+}
+.project-column{
+    text-align:center;
+}
+.card-deck{
+    padding-top: 20px;
+}
+h6{
+    color: black;
+    font-weight: bold;
+}
+#footer{
+    background-color: black;
+    color:white;
+    margin-bottom: 0; 
+    font-family: 'Lato', sans-serif;
+    
+}
